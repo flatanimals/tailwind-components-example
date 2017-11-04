@@ -1,4 +1,5 @@
-##Tailwind Example Components
+Tailwind Example Components
+-------------
 
 Checkout [Tailwind CSS](http://tailwindcss.com) - An aweome set of CSS Utility classes.
 
