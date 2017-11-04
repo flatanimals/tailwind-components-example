@@ -1,5 +1,4 @@
 .check-list {
-  /* wrapper */
   @apply .border;
   @apply .border-grey-light;
   @apply .rounded;
@@ -15,7 +14,6 @@
   @apply .py-1;
   @apply .text-grey-darker;
   @apply .bg-grey-lightest;
-  /*@apply .border;*/
   @apply .border-t;
   @apply .border-grey-light;
 }
@@ -33,11 +31,4 @@
 
 .check-list > label:first-of-type {
   @apply .border-t-0;
-/*  @apply .rounded;
-  @apply .rounded-t;*/
 }
-/*
-.check-list > label:last-of-type {
-  @apply .rounded;
-  @apply .rounded-b;
-}*/
