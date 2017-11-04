@@ -621,7 +621,6 @@ textarea {
 }
 
 .check-list {
-  /* wrapper */
   border: 1px solid #dae4e9;
   border-color: #dae4e9;
   border-radius: .25rem;
@@ -646,7 +645,6 @@ textarea {
   padding-bottom: 0.25rem;
   color: #596a73;
   background-color: #fafcfc;
-  /*@apply .border;*/
   border-top: 1px solid #dae4e9;
   border-color: #dae4e9;
 }
@@ -666,14 +664,8 @@ textarea {
 
 .check-list > label:first-of-type {
   border-top: 0;
-  /*  @apply .rounded;
-  @apply .rounded-t;*/
 }
-/*
-.check-list > label:last-of-type {
-  @apply .rounded;
-  @apply .rounded-b;
-}*/
+
 .toggle-group {
   display: -webkit-box;
   display: -ms-flexbox;
