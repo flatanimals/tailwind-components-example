@@ -1,0 +1,6 @@
+body {
+  @apply .font-sans;
+  @apply .font-normal;
+  @apply .text-grey-darkest;
+  @apply .leading-normal;
+}

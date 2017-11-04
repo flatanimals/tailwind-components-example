@@ -1,0 +1,79 @@
+input, textarea {
+  @apply .px-3;
+  @apply .py-2;
+  @apply .border;
+  @apply .border-grey-light;
+  @apply .text-grey-darkest;
+}
+
+.complex-control {
+
+  @apply .flex;
+  @apply .w-full;
+  @apply .items-stretch;
+
+}
+
+.complex-control > div,
+.complex-control > span,
+.complex-control > button {
+  @apply .flex;
+  @apply .bg-grey-lighter;
+  @apply .px-2;
+  @apply .text-grey-darker;
+  @apply .border-grey-light;
+  @apply .border;
+  @apply .border-r-0;
+  @apply .items-center;
+  @apply .font-semibold;
+  @apply .cursor-auto;
+  @apply .px-3;
+}
+
+.complex-control > *:first-child {
+  @apply .rounded;
+  @apply .rounded-l;
+  @apply .border-r;
+}
+
+.complex-control > *:last-child {
+  @apply .rounded;
+  @apply .rounded-r;
+  @apply .border-r;
+  @apply .border-l-0;
+}
+
+.select {
+  @apply .inline-block;
+  @apply .relative;
+}
+
+.select > select {
+  @apply .appearance-none;
+  @apply .bg-white;
+  @apply .block;
+  @apply .border;
+  @apply .border-grey-light;
+  @apply .pl-3;
+  @apply .pr-8;
+  @apply .py-2;
+  @apply .rounded;
+  @apply .text-center;
+  @apply .text-grey-darker;
+  @apply .w-full;
+}
+
+.select > select:hover {
+  @apply .border-grey;
+}
+
+.select > .caret {
+  @apply .pointer-events-none;
+  @apply .absolute;
+  @apply .pin-y;
+  @apply .pin-r;
+  @apply .flex;
+  @apply .items-center;
+  @apply .px-2;
+  @apply .text-blue;
+}

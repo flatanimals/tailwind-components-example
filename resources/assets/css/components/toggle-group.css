@@ -1,0 +1,36 @@
+
+
+.toggle-group {
+  @apply .flex;
+  @apply .items-stretch;
+}
+
+.toggle-group > a {
+  @apply .flex-1;
+  @apply .text-sm;
+  @apply .p-1;
+  @apply .text-center;
+  @apply .no-underline;
+  @apply .border-t;
+  @apply .border-b;
+  @apply .border-r;
+  @apply .text-grey-darker;
+  @apply .bg-grey-lighter;
+  @apply .border-grey-light;
+}
+.toggle-group > a:first-of-type {
+  @apply .border-l;
+  @apply .rounded;
+  @apply .rounded-l;
+}
+.toggle-group > a:last-of-type {
+  @apply .rounded;
+  @apply .rounded-r;
+}
+.toggle-group > a.is-active {
+  @apply .font-semibold;
+  @apply .text-white;
+  @apply .bg-blue;
+  @apply .border-blue-dark;
+  @apply .shadow-inner;
+}

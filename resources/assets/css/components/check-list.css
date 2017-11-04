@@ -1,0 +1,43 @@
+.check-list {
+  /* wrapper */
+  @apply .border;
+  @apply .border-grey-light;
+  @apply .rounded;
+  @apply .overflow-hidden;
+}
+
+.check-list > label {
+  @apply .flex;
+  @apply .flex-row;
+  @apply .w-full;
+  @apply .items-center;
+  @apply .px-2;
+  @apply .py-1;
+  @apply .text-grey-darker;
+  @apply .bg-grey-lightest;
+  /*@apply .border;*/
+  @apply .border-t;
+  @apply .border-grey-light;
+}
+
+.check-list > label > span {
+  @apply .ml-2;
+  @apply .flex-1;
+  @apply .leading-tight;
+}
+
+.check-list > label:hover {
+  @apply .bg-blue;
+  @apply .text-white;
+}
+
+.check-list > label:first-of-type {
+  @apply .border-t-0;
+/*  @apply .rounded;
+  @apply .rounded-t;*/
+}
+/*
+.check-list > label:last-of-type {
+  @apply .rounded;
+  @apply .rounded-b;
+}*/

@@ -1,0 +1,16 @@
+.card {
+  @apply .bg-white;
+  @apply .text-grey-darkest;
+  @apply .border;
+  @apply .border-grey-light;
+  @apply .px-2;
+  @apply .py-2;
+  @apply .rounded;
+  @apply .shadow;
+}
+
+.card > .card-header {
+  @apply .block;
+  @apply .text-center;
+  @apply .mb-1;
+}

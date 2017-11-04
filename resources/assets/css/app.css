@@ -1,0 +1,28 @@
+@import "tailwind-preflight.css";
+/**
+ * Here you would import any custom component classes; stuff that you'd
+ * want loaded *before* the utilities so that the utilities can still
+ * override them.
+ *
+ * @import "my-components/foo";
+ * @import "my-components/bar";
+ */
+
+@import 'base.css';
+@import 'components/card.css';
+@import 'components/inputs.css';
+@import 'components/check-list.css';
+@import 'components/toggle-group.css';
+
+@import 'tailwind-utilities.css';
+
+/**
+ * Here you would add any custom utilities you need that don't come out of the
+ * box with Tailwind.
+ *
+ * @import "my-utilities/background-images";
+ * @import "my-utilities/skew-transforms";
+ */
+
+
+
