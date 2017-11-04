@@ -52,8 +52,7 @@
         <label>
             <input type="checkbox"><span>Budweiser - 6 Pack Cans</span>
         </label>
-
-        <label class="flex flex-row w-full items-center px-2 py-1 text-grey-darker bg-grey-lightest hover:bg-blue hover:text-white">
+        <label>
             <input type="checkbox"><span>Budweiser - 12 Pack Cans</span>
         </label>
     </div>
